@@ -1,0 +1,16 @@
+Name   Age Points
+"Amy"   18   99
+"Ted"    19   88
+"Fred"   23   77
+"Balazs" 20 100
+"Olga"   19  92
+"Sein"   20 95
+"Fionula" 21  98
+"Francois" 27  56
+"Vladimir" 29  63
+"Jiang"    24  58
+"Arthur"  23  60
+"Thomas" 20 93
+"Jane"     19  59
+"Brad"     22  89
+"Han"      31  97

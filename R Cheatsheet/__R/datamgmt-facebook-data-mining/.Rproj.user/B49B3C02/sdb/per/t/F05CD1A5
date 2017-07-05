@@ -1,0 +1,15 @@
+{
+    "contents" : "Facebook Data Mining in R\n\nIntroduction\n\nThis group of scripts was inspired by a series of posts on how to data mine Facebook data. The scripts allow you to connect to the Facebook graph API and download data associated with an individual, their posts, friends, etc. and then analyse and graaph these in various ways.\n\nAbout The Script\n\nThe scripts are broken up into a number of groups as follows:\n\n * Setup.R - Sets up the environment required\n * Demo.R - A demonstration of personal data\n * DemoGeorgeTakei.R - A demonstration of data available from Star Trek actor and activist George Takei (Sulu)\n * DemoTED.R - A demonstration of data available from TED.com's video posts\n\nAll the other scripts called from these four scripts\n\nGetting Started\n\n * First you need an access token. To do this you need to visit https://developers.facebook.com/tools/explorer', \n   login and click \"Get access token\" and then paste this into the appropriate place in AccessToken.R\n\n * Next from within R (or RStudio - http://rstudio.org, my personal preferred method) run the following command:\n\n   source(\"Setup.R\")\n\n\tThis will ensure that all the required packages from the demo and installed and loaded (by calling Requirements.R)\n\tand that all the shared functions that are required are created (by calling Functions.R) \n\t\nThe Demos\n\nAt the three demos listed above can be called with:\n\n\tsource(\"Demo.R\")\n\tsource(\"DemoGeorgeTakei.R\")\n\tsource(\"DemoTED.R\")\n\t\nEach of these will call some of the following functions:\n\n\tAccessToken.R - Gives access to the API - called by all scripts\n\tIndividual.R - Gets data associated with the individual - called by all scripts\n\tFriends.R - Gets data associated with an individuals friends - called by Demo.R\n\tPhotos.R - Gets photographs associated with an individual and their friends - called by Demo.R\n\tNetwork.R - Plots the social network of a group of friends in various formats/methods - called by Demo.R\n\tPosts.R - Gets various pieces of information about posts made by an individual - called by all scripts\n\n\nList of source URLs used in the development of these scripts\n\nhttp://romainfrancois.blog.free.fr/index.php?post/2012/01/15/Crawling-facebook-with-R\nhttp://blog.revolutionanalytics.com/2012/01/visualize-your-facebook-friends-network-with-r.html\nhttp://applyr.blogspot.co.uk/2012/01/mining-facebook-data-most-liked-status.html?spref=tw\nhttps://github.com/sciruela/facebookFriends\nhttp://google-styleguide.googlecode.com/svn/trunk/google-r-style.html",
+    "created" : 1348677282887.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2299832651",
+    "id" : "F05CD1A5",
+    "lastKnownWriteTime" : 1339599028,
+    "path" : "D:/Kingmbc-Doc/Dropbox/GCT711 Social media analysis/datamgmt-facebook-data-mining/ReadMe.txt",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "text"
+}
